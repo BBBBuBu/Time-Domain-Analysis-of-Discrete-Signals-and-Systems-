@@ -19,7 +19,7 @@
 
 最后，绘制完整的波形分析图，包括输入信号x₁[n]和x₂[n]的波形、对应的系统响应x₁[n]和x₂[n]的波形，以及单位脉冲响应h[n]的波形。
 
-​                                                                        ![img](file:///C:\Users\bubu\AppData\Local\Temp\ksohtml30732\wps2.jpg) 
+​                                                                       ![2](images/2.png) 
 
 #### 2.线性卷积分析
 
@@ -27,9 +27,9 @@
 
 使用conv函数进行线性卷积运算，分别计算x[n]与两个系统脉冲响应的卷积输出：y_conv1 = conv(x_conv, h1_conv)和y_conv2 = conv(x_conv, h2_conv)。
 
-​                                                                             ![img](file:///C:\Users\bubu\AppData\Local\Temp\ksohtml30732\wps3.jpg) 
+​                                                                       ![3](images/3.png) 
 
-![img](file:///C:\Users\bubu\AppData\Local\Temp\ksohtml30732\wps4.jpg)
+![4](images/4.png) 
 
   #### 3.谐振器
 
@@ -39,9 +39,9 @@
 
 在频率响应分析阶段，输入混合正弦信号x[n] = sin(0.014n) + sin(0.4n)，通过y_sin = filter(b_res, a_res, x_sin)计算系统输出。重点分析系统对0.4rad频率分量的选择性放大特性，以及对0.014rad低频分量的抑制效果，验证谐振器的频率选择特性。
 
-​                                                                                ![img](file:///C:\Users\bubu\AppData\Local\Temp\ksohtml30732\wps5.jpg) 
+​                                                                                ![5](images/5.png) 
 
-![img](file:///C:\Users\bubu\AppData\Local\Temp\ksohtml30732\wps6.jpg)
+![6](images/6.png) 
 
 
 ## 实验结果与分析
